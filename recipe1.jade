@@ -1,0 +1,261 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        link(rel='icon', href='images/favicon.ico')
+        title Meal Studios
+        link(href='css/bootstrap.min.css', rel='stylesheet')
+        link(href='css/recipe1.css', rel='stylesheet')
+        link(href='css/font-awesome.min.css', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet')
+        link(rel="stylesheet", type="text/css", href="css/flaticon.css")
+        link(href='owlcarousel/dist/assets/owl.carousel.min.css', rel='stylesheet')
+        link(href='owlcarousel/dist/assets/owl.theme.default.min.css', rel='stylesheet')
+	
+    body
+        nav.navbar.navbar-expand-lg.fixed-top
+            .container
+                a.navbar-brand(href='#')
+                    img(src='images/logo_copy.png', alt='')
+                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarCollapse.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-center
+                        li.nav-item
+                            a.nav-link(href='meal1.html') Home
+                        li.nav-item
+                            a.nav-link(href='#') Blog
+                        li.nav-item
+                            a.nav-link(href='#') Food
+                        li.nav-item
+                            a.nav-link(href='#') Eating Healthy
+                        li.nav-item
+                            a.nav-link(href='#') Recipes
+                        li.nav-item
+                            a.nav-link(href='#') Drinks
+                    ul.nav.navbar-nav.navbar-right
+                        li.nav-item
+                            a.nav-link(href='#')
+                                i.fa.fa-search.fa-2x(aria-hidden='true')
+        
+        header.py-5.bg-image-full.overlay.parallax
+            .scoreStars
+                .floating-box
+                    .scoreNum 3.0
+                .floating-box    
+                    i.fa.fa-star.fa-2x(aria-hidden="true")
+                .floating-box
+                    i.fa.fa-star.fa-2x(aria-hidden="true")
+                .floating-box
+                    i.fa.fa-star.fa-2x(aria-hidden="true")
+                .floating-box
+                    i.fa.fa-star-o.fa-2x(aria-hidden="true")
+                .floating-box
+                    i.fa.fa-star-o.fa-2x(aria-hidden="true")
+
+        section.bigCard
+            .row
+                .col-6.bigText
+                    hr.redLine
+                    h2 Lorem ipsum dolor sit amet
+                    br
+                    h3 O receptu:
+                    p
+                        | Lorem ipsum dolor sit amet, te his virtute eruditi, an agam unum movet vis. An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec eu, sea enim nulla rationibus id, sit tollit adipiscing at. Ullum utinam delicatissimi ad quo. Laudem corrumpit accommodare et vis, ea ius oportere intellegat, mei prima accusam ne. Eos te sint dictas. An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec eu, sea enim nulla rationibus id, sit tollit adipiscing at. Ullum utinam.
+                .col-5.offset-1.bigBox
+                    .card(style="width: 100%;")
+                        ul.list-group.list-group-flush
+                            li.list-group-item Datum objave: 16.07.2017.
+                            li.list-group-item
+                                .row
+                                    .col-6
+                                        p.float-left Autor
+                                    .col-6
+                                        p.float-right.redLetters John Doe
+                                .row
+                                    .col-6
+                                        p.float-left Vreme spremanja
+                                    .col-6
+                                        p.float-right.redLetters 1h/15min
+                                .row
+                                    .col-6
+                                        p.float-left Kalorije
+                                    .col-6
+                                        p.float-right.redLetters 2500 kcal
+                                .row
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                                br
+                                .row
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                                    .col-4
+                                        img(src="imgRecipes/sushi.jpeg")
+                                        .overlay-grid
+                                            .overlay_text
+                                                .hover-text
+                                                    p 22 photos
+                        span.badge.badge-success.pull-right
+                            img(src="imgRecipes/001.png")
+
+        section.alergeni
+            h3 Alergeni
+            br
+            .d-flex.justify-content-between
+                .p-2.text-center GLUTEN
+                .p-2.text-center MLEKO
+                .p-2.text-center SOJA
+                .p-2.text-center JAGODE
+                .p-2.text-center JAGODE
+                .p-2.text-center JAGODE
+
+        section.energy
+            .row
+                .col-4.offset-2
+                    .row
+                        .col-1
+                            .energyDot#yellowDot
+                        .col-5
+                            p PROTEINI
+                        .col-5
+                            p.float-right 2g / 2%
+                    .row
+                        .col-1
+                            .energyDot#greenDot
+                        .col-5
+                            p VITAMINI
+                        .col-5
+                            p.float-right 12g / 12%
+                    .row
+                        .col-1
+                            .energyDot#blueDot
+                        .col-5
+                            p MINERALI
+                        .col-5
+                            p.float-right 62g / 33%
+                    .row
+                        .col-1
+                            .energyDot#orangeDot
+                        .col-5
+                            p VLAKNA
+                        .col-5
+                            p.float-right 42g / 26%
+                    .row
+                        .col-1
+                            .energyDot
+                        .col-5
+                            p MASTI
+                        .col-5
+                            p.float-right 58g / 29%
+                .col-4.offset-1
+
+        section.ikonice
+            .d-flex.justify-content-between
+                .p-2
+                    img(src="imgRecipes/002.png")     
+                .p-2
+                    img(src="imgRecipes/003.png")
+                .p-2
+                    img(src="imgRecipes/004.png")
+                .p-2
+                    img(src="imgRecipes/005.png")
+                .p-2
+                    img(src="imgRecipes/006.png")
+                .p-2 
+                    img(src="imgRecipes/007.png")
+                .p-2
+                    img(src="imgRecipes/008.png")
+                .p-2
+                    img(src="imgRecipes/009.png")
+        
+        section.sastojciprirpema
+            .row
+                .col-3.sastojci
+                    h3 Sastojci:
+                    .d-inline-flex
+                        .p-2.redLetters 350g
+                        .p-2 secera
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 250ml
+                        .p-2 mleka
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 150g
+                        .p-2 jagoda
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 1 kesica
+                        .p-2 secera
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 2 kasike
+                        .p-2 kakaoa
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 100g
+                        .p-2 soli
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 250g
+                        .p-2 brasna
+                    br
+                    .d-inline-flex
+                        .p-2.redLetters 2 kom
+                        .p-2 jaja
+                .col-9.priprema
+                    h3 Priprema:
+                    .redLetters 00:10h
+                    p
+                        | Lorem ipsum dolor sit amet, te his virtute eruditi, an agam unum movet vis. An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec.
+                    .redLetters 00:30h
+                    p
+                        | An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec.    
+                    .redLetters 01:00h
+                    p
+                        | Lorem ipsum dolor sit amet, te his virtute eruditi, an agam unum movet vis. An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec.
+                    .redLetters 01:15h
+                    p
+                        | An aeque probatus sit, mel no corpora dolores omnesque. Postea suscipit vis eu, ea simul sanctus vel. Mollis regione nec.    
+
+        footer
+            .container
+                .row.justify-content-between
+                    .col-4
+                        img.img-fluid(src='images/logo_copy.png', style='\
+                        margin-top: 5px;\
+                        ')
+                    .col-2
+                        p(style='color:rgb(206, 206, 206);margin-top: 25px;margin-left: -20px;') All rights reserved. 2017
+        
+        script(src='js/jquery-3.2.1.min.js')
+        script(src='js/meal.js')
+        script(src='js/bootstrap.min.js')
+        script(src='owlcarousel/dist/owl.carousel.min.js')
